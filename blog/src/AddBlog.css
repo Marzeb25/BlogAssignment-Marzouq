@@ -1,0 +1,38 @@
+.add-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    margin-top: 30px;
+    text-align: left;
+}
+form{
+    width: 100%;
+}
+label{
+    display: block;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.form-control{
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #666;
+    width: 100%;
+}
+.form-control.error{
+    border: 10px solid;
+}
+button{
+    background-color: rgb(79, 32, 156);
+    min-width: 150px;
+    padding: 15px 30px;
+    color: blanchedalmond;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-family: 'Blaka', cursive;
+    cursor: pointer;
+}
+button:hover{
+   box-shadow: 50px;
+}

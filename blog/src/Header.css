@@ -1,0 +1,48 @@
+.header{
+    background-image: url('/public/header.jpg');
+    min-height: 500px;
+}
+.header-container{
+    font-size: 80px;
+    font-family: 'Dancing Script',cursive;
+    background: -webkit-linear-gradient(rgb(227, 84, 84), rgb(209, 15, 134));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.header-container .header-content{
+    margin-top: 200px;
+}
+.nav-bar{
+    background-color: black;
+    height: 50px;
+}
+.logo-image{
+    width: 60px;
+    float: left;
+    height: 50px;
+}
+.nav-menu{
+    float: right;
+    display: flex;
+    min-width: 450px;
+    justify-content: space-evenly;
+}
+.nav-menu li{
+    list-style-type: none;
+
+}
+.nav-menu li a{
+    color: white;
+    cursor: pointer;
+    
+}
+.nav-menu li a:hover{
+    color:blue;
+}
+a{
+    text-decoration: none;
+}
+.nav-menu li a.active{
+    color: aqua;
+}
